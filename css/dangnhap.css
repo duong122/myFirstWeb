@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto Slab";
+}
+.header-top{
+    background-color: #b7dc36 !important;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    display: flex;
+
+}
+.header-top .freeship{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    
+}
+.header-top .login ul li a:hover{
+    color:green;
+    opacity: 0.5s;
+}
+.header-top .login ul li{
+    display: inline-block;
+    padding: 5px;
+    
+   
+}
+.header-top .login{
+    margin-left:750px ;
+    position: relative;
+    padding:5px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.header-row{
+    width: 100%;
+    display: flex;
+}
+.header-row .foodfarm{
+    display: inline-block;
+    width: 33,33%;
+    min-width: 300px;
+    margin: auto;
+}
+div{
+    display: block;
+}
+.header-banner{
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #ccc;
+    max-width: 380px;
+    margin: 50px 0px 10px 0px;
+    position: relative;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 33,33%;   
+    max-height: 120px; 
+}
+.header-banner:before{
+    content: "";
+    position: absolute;
+    border: 1px solid #ccc;
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    right: 3px;
+}
+h5{
+    font-size: 22px;
+}
+
+h6{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #777;
+    line-height: 0px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.header-row{
+    height:200px ;
+    border-bottom: 2px solid rgb(169, 164, 164);
+}
+.header-contact{
+    width: 33.333%;
+    position: relative;
+    min-width: 500px;
+
+}
+.header-row .header-contact .contact ul{
+     position: relative; 
+     top: 50px;
+     list-style: none;
+     display: flex;
+}
+.header-row ul li a {
+    font-size: 18px;
+    color: #777;
+    padding: 8px
+}
+a
+{
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+    background: transparent;
+    transition: all 200ms ease 0s;
+    -webkit-transition: all 200ms ease 0s;
+    -moz-transition: all 200ms ease 0s;
+}
+.search{
+    background: white;
+    position: absolute;
+    margin-top: 75px;
+    
+}
+.search #search-text{
+    background: white;
+    font-size: 14px;
+    outline: none;
+    border: none; 
+    width: 200px;
+}
+#search-btn{
+    border: none;
+    background:#b7dc36;
+    cursor: pointer;
+    transition: 0.3s all;
+    padding: 7.1px 15px;
+}
+.header-bottom{
+    width: 100%;
+    min-height: 60px;
+    padding: 20px;
+    position: relative;
+    
+}
+.header-bottom .container{
+    margin: 0px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+}
+.header-bottom .container ul li{
+    display: inline-block;
+    padding: 2px;
+}
+.header-bottom .container ul img{
+    width: 25px;
+    height: 20px;
+    left:560px;
+    position: absolute;
+}
+.header-bottom .container ul li a{
+  padding: 10px;
+  font-weight:bold;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 17px;
+}
+.header-bottom .container ul li a::before{
+    content: "";
+    height: 3px;
+    width: 0px;
+    background-color: #b7dc36;
+    top:0px;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+  }
+  .header-bottom .container ul li a:hover::before{
+    width: 70%;
+  }
+.header-bottom .container ul li a:hover{
+    color: #b7dc36;
+  }
+  .dangnhap{
+    position: relative;
+  }
+  .dangnhap img{
+    position:relative;
+    width: 100%;
+    height: 240px;
+  }
+  .dangnhap h2{
+    padding:5px;
+  }
+  #lg{
+    left: 610px;
+    top: 100px;
+    display: flex;
+    position: absolute;
+  }
+  .dangnhap .trangchu{
+    font-size: 40px;
+    color: white;
+  }
+  .dangnhap .trangchu a{
+    font-size: 40px;
+    color: white;
+  }
+  #login a{
+    color: rgb(227, 94, 46);
+    font-size: 40px;
+  }
+  .dangnhap2{
+    top: 50px;
+    left: 570px;
+    position: relative;
+    display: inline-block;
+  }
+  .dangnhap2 h5{
+    padding-bottom: 30px;
+    width: 200px;
+    font-size: 24px;
+  }
+  .dangnhap2 .pad{
+    padding: 10px;
+  }
+  .dangnhap2 p{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    word-spacing: normal;
+  }
+  #login-text{
+    padding:10px;
+    width: 600px;
+    font-size: 16px;
+  }
+.btnlogin button{
+    position: absolute;
+    padding:12px;
+    width: 150px;
+    font-size: 14px;
+    background-color: rgb(233, 175, 67);
+    border-radius: 15px;
+    font-weight: 700;
+}
+.btnlogin button:hover{
+    background-color: #b7dc36;
+}
+.btnlogin{
+    position: absolute;
+    top:250px;
+}
+.btnloginf{
+    position: absolute;
+    top:320px;
+    display: inline-block;
+    max-width: 280px;
+}
+.btnloginf button{
+    display: flex;
+    position: absolute;
+    width: 280px;
+    height: 42px;
+    font-size: 16px;
+    background-color:#3e70d2;
+    border-radius: 15px;
+}
+.btnloginf p{
+    position: absolute;
+    width: 100%;
+    color: white;
+    padding: 8px;
+}
+.btnloginf img{
+   width: 36px;
+   height: 36px;
+}
+.btnloging{
+    position: absolute;
+    top:320px;
+    left: 320px;
+    display: inline-block;
+    max-width: 280px;
+}
+.btnloging button{
+    display: flex;
+    position: absolute;
+    width: 280px;
+    height: 42px;
+    font-size: 16px;
+    background-color:#cf2626;
+    border-radius: 15px;
+}
+.dangnhap2 button:hover{
+    cursor: pointer;
+}
+.btnloging p{
+    position: absolute;
+    width: 100%;
+    padding: 8px;
+}
+.btnloging img{
+   width: 36px;
+   height: 36px;
+}
+.forget{
+  position: absolute;
+  top:400px;
+  color: #777;
+}
+.forget p:hover{
+    color: #454444;
+    cursor: pointer;
+}
+.footer{
+    position: relative;
+    top: 340px;
+    width: 100%;
+ }
+ .footer .about {
+    position: absolute;
+    max-width: 264px;
+    left: 100px;
+ 
+ }
+ .footer h5{
+    font-size: 16px;
+ }
+ .footer .about h5{
+     padding-bottom: 20px;
+     line-height: 1.4;
+     word-spacing: normal;
+     font-weight: 800px;
+ }
+ .footer .about h5::after{
+     content: "";
+     height: 3px;
+     width: 30px;
+     top:30px;
+     left: 0px;
+     background-color: #b7dc36;
+     position: absolute;
+     transition: all 0.5s ease-in-out;
+ }
+ .footer .contact {
+     left: 420px;
+     position: absolute;
+ }
+ .footer .contact h5::after{
+     content: "";
+     height: 3px;
+     width: 30px;
+     top:30px;
+     left: 0px;
+     background-color: #b7dc36;
+     position: absolute;
+     transition: all 0.5s ease-in-out;
+ }
+ .footer .contact h5{
+     padding-bottom: 20px;
+     line-height: 1.4;
+     word-spacing: normal;
+     font-weight: 800px;
+ }
+ .photo{
+     max-width: 265px;
+     position: absolute;
+     left: 800px;
+ }
+ .photo h5{
+     padding-bottom: 20px;
+     line-height: 1.4;
+     word-spacing: normal;
+     font-weight: 800px;
+ }
+ .photo h5::after{
+     content: "";
+     height: 3px;
+     width: 30px;
+     top:30px;
+     left: 0px;
+     background-color: #b7dc36;
+     position: absolute;
+     transition: all 0.5s ease-in-out;
+ }
+ .photo img{
+     width: 73px;
+     height: 73px;
+     padding:4px;
+ }
+ .photo .photo1{
+     display: flex;
+ }
+ .photo .photo2{
+     display: flex;
+ }
+ .photo img:hover{
+     color: rgba(92, 90, 90, 0.612);
+ }
+ .footer .time{
+     position: absolute;
+     left: 1150px;
+     text-align: center;
+     padding: 20px;
+     display: table;
+     max-width: 400px;
+ }
+ .footer .time h6{   
+    margin-top: 10px;
+ }
+ .footer .time p{
+     padding: 20px;
+     color: #666;
+ }
+ 

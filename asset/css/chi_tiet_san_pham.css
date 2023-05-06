@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row1 {
+    position:relative;
+    left: 164px;
+}
+.wrap {
+    width: 1212px;
+    height: 1373px;
+    /* background-color:#ccc; */
+    position: relative;
+}
+.img-detail {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+}
+.img-detail img {
+    margin-bottom: 32px;
+    margin-right: 32px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.img-detail .big-img img {
+    width: 350px;
+    height: 350px;
+}
+.img-detail .small img {
+    width: 85px;
+    height: 85px;
+}
+.row-text {
+    width: 486px;
+    height: 512px;
+    display: inline-block;
+}
+.row-text .title-product-name {
+    font-family: 'Roboto';
+}
+.row-text .detail-product {
+    margin-top: 16px;
+}
+.row-text .detail-product li {
+    list-style:none;
+    display: inline-block;
+    font-family: 'Roboto';
+    margin-right: 24px;
+    color: #888;
+    margin-bottom: 12px;
+}
+.row-text .detail-product .product-brand,
+.row-text .detail-product .product-code {
+    margin-left: 12px;
+    color: #333;
+}
+.detail-product .price-detail {
+    padding: 24px 0;
+}
+.detail-product .price-detail .price-main {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffba00;
+    margin-right: 48px;
+}
+.detail-product .price-detail .discount span {
+    background-color: #333;
+    color: #fff;
+}
+.detail-product .price-before {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #888;
+    text-decoration: line-through;
+    position: relative;
+    top: -10px;
+}
+.row-text .description p {
+    padding: 16px 0;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row-text .product-available li {
+    color: #888;  
+    list-style: none;
+    margin-bottom: 8px;
+}
+.row-text .product-available span {
+    padding-left: 12px;
+    color:#333;
+}
+.quantity {
+    display: inline-block;
+}
+.quantity .numeric .plus,
+.quantity .numeric .minus{
+    width: 40px;
+    height: 40px;
+    background-color:#ffba00;
+    color:#fff;
+    border: none;
+    font-size: 24px;
+}
+.quantity .numeric .plus:hover,
+.quantity .numeric .minus:hover {
+    color:#ffba00;
+    background-color: #fff;
+}
+.quantity .numeric input {
+    width: 90px;
+    height: 40px;
+    background-color: #fff;
+    color:#333;
+    border:none;
+    text-align: center;
+    font-size:24px;
+}
+.quantity .numeric {
+    display: inline-block;
+    border: rgba(0, 0, 0, 0.5) solid 1px;
+}
+.add-to-cart {
+    display: inline-block;
+}
+.row-text .add-to-cart button{
+    width: 300px;
+    height: 45px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 186, 0);
+    display: inline-block;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    margin-left: 194px;
+    position: relative;
+    top: -44px;
+}
+.row-text .add-to-cart i {
+    background-color:#ffba00;
+    color:#fff;
+}
+.row-text .do-not-know-why {
+    width: 38px;
+    height: 38px;
+}
+.row-text .bottom-detail-product {
+    width: 826px;
+    height: 826px;
+    background-color: #ccc;
+}
+.bottom-detail-product {
+    display: inline-block;
+}
+.bottom-detail-product .option li {
+    list-style:none;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color:#ffba00;
+    border-radius: 25px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.bottom-detail-product .option span {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 42px;
+}
+.content {
+    width: 912px;
+    height: 726px;
+    padding: 25px;
+    box-shadow:2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.img {
+    text-align: center;
+    padding: 24px;
+}
+.img p {
+    margin-top: 12px;
+    font-style: italic;
+}
+.the-same-type {
+    display: inline-block;
+    width: 260px;
+    height: 861px;
+    position: absolute;
+    top: 0;
+    margin-left: 28px;
+}
+.the-same-type h2 {
+    color:#ffba00;
+    padding: 24px 0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+.product {
+    margin-left: 0;
+    margin-top: 28px;
+}
+.the-most-popular-product {
+    width: 1200px;
+    height: 508px;
+    margin: 0 160px;
+    margin-top: 28px;
+}
+.the-most-popular-product .title1 h1 {
+    text-align: center;
+}
+.the-most-popular-product .title1 i {
+    display: inline-block;
+    width: 24px;
+    height: 1px;
+    background-color:#ffba00;
+    position: relative;
+    left: 50%;
+}
+
+
+
+
+
+
+
