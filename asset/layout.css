@@ -1,0 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main div {
+    border: #333 solid 1px;
+}
